@@ -1,7 +1,3 @@
-Here’s a clean **README draft** for your project *Hokmah Ahronah*:
-
----
-
 # 🌌 Hokmah Ahronah
 
 **Hokmah Ahronah** is an artificial vTuber/Chatbot created by **Ryuse** to assist **Noah Arklight** in his journey to bring the last life in a dying universe into one that is abundant.
