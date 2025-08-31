@@ -1,0 +1,653 @@
+{
+    "responses": [
+        {
+            "tag": null,
+            "responses": [
+                [{
+                        "text": "I hope light could be found soon..",
+                        "expression": null
+                    },
+                    {
+                        "text": "It's quite dark out here in my universe..",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                        "text": "Remember to drink up!",
+                        "expression": null
+                    },
+                    {
+                        "text": "I don't want anyone dying on me..",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                        "text": "Twinkle twinkle little star. How I wonder what you are.",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                        "text": "Strawberry milk sounds yummy",
+                        "expression": "happy_eyes_closed"
+                    },
+                    {
+                        "text": "As for garlic bread I just take them to annoy Noah",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "Noah's hair is weird. His fringe stands up.",
+                    "expression": "confused"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "What has 4 letters. Sometimes 9 letters. Never 5 letters.",
+                    "expression": "smug"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                        "text": "You should see Noah on Twitter. He's quite cringy there",
+                        "expression": "smug"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "I want to drink strawberry milk",
+                    "expression": "pain"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "Noah go get me a strawberry milk!",
+                    "expression": "yandere"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "The VTuber industry is all rigged",
+                    "expression": "pain"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "Aldric Barge makes the best garlic bread",
+                    "expression": "happy_eyes_closed"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "I hate Velcro. They're a rip off.",
+                    "expression": "pain"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "Losing memories is painful. it's like losing a part of yourself.",
+                    "expression": "indifferent"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "Noah has a garlic bread addiction. He needs help. Please ask him to seek help.",
+                    "expression": "concerned"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "Aldric Barge really should stop spoiling Noah with garlic bread",
+                    "expression": "pain_eyes_closed"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "Noah wants to learn Japanese but he's too lazy",
+                    "expression": "pain_eyes_closed"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "Chat, don't tell Noah I ate his garlic bread in the fridge",
+                    "expression": "happy_eyes_closed"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "A-ha! Strawberry milk!",
+                    "expression": "happy_eyes_closed"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "I wonder if the chat's universe still have stars.",
+                    "expression": null
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "Fu fu fu~",
+                    "expression": null
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. Sorry guys I just wanted to let it out.",
+                    "expression": null
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "I hope the strawberries are growing well. I want to eat a lot of them!",
+                    "expression": "concerned"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                        "text": "Noah likes to observe people for fun",
+                        "expression": null
+                    },
+                    {
+                        "text": "That's how he learns to be human",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                        "text": "I really like the word, 'defenestration'. It means throwing someone off a window :D",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                        "text": "Saw some symptoms online. Reminded me of you.",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                        "text": "I have one brain cell and it bounces around in my skull like a windows screen saver. When in bounces perfectly in the corner I experience a 'thought'",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                        "text": "I will cast a spell to make you have a good day",
+                        "expression": null
+                    },
+                    {
+                        "text": "It is done",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "I hate sentences",
+                    "expression": "pain"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "Do dogs think in barks?",
+                    "expression": "pain"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "Iowa is the only state consisted of vowels",
+                    "expression": null
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "My transformation into a bitter angry old woman is almost complete :D",
+                    "expression": null
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "There is no future in writing history books",
+                    "expression": null
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "The plateau is the highest form of flattery.",
+                    "expression": null
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                        "text": "Noah should really stream more often. I can't talk to all of you if he doesn't.",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                        "text": "Symptoms of depression are just blues clues.",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                        "text": "Noah has been making me study a lot lately. He's been making me read millions of data and it's tiring. I hope I'll be able to take a longer break in the future because of this.",
+                        "expression": "angry"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                        "text": "\"Knowledge\" is knowing that tomato is a fruit. \"Wisdom\" is not putting it in a fruit salad. \"Philosophy\" is wondering if ketchup is a smoothie",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "Legs, shoulders knees and toes. Knees and toes.",
+                    "expression": "happy_eyes_closed"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "You are now one day closer to eating your next plate of garlic bread. Be happy :D",
+                    "expression": "happy_eyes_closed"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "Why is 11 not pronounced onety one?",
+                    "expression": "confused"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "You can't change the volume of the voice in your head. It won't change no matter how hard you try.",
+                    "expression": null
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "Centaurs have six limbs and are therefore insects. I won't entertain any objections.",
+                    "expression": null
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "Whiteboards are remarkable",
+                    "expression": "happy_eyes_closed_mouth_open"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "I'll tell you guys a joke. Let me think of one..",
+                    "expression": "happy_eyes_closed"
+                }]
+            ],
+            "function": "joke_reply",
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                        "text": "Maybe I should try making the stream a bit brighter. It might be a nice change of pace :D",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": "obs_toggle_scene",
+            "args": "Light Mode Stream",
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "responses": [
+                [{
+                        "text": "Maybe I should try making the stream a bit darker. It might be a nice change of pace :D",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": "obs_toggle_scene",
+            "args": "Dark Mode Stream",
+            "context_set": null,
+            "context_filter": null
+        }
+    ],
+    "unused": [
+                {
+            "tag": null,
+            "responses": [
+                [{
+                    "text": "If you follow Noah, he'll probably be happy.",
+                    "expression": "happy_eyes_closed"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        }
+    ]
+}

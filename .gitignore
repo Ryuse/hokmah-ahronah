@@ -1,0 +1,16 @@
+speech.txt
+.idea/
+images/
+games/retro
+logs/
+triton/
+*.sai2
+*.pyc
+*.pyo
+*.wav
+machine_learning/models
+audio.wav
+scripts/audio.wav
+scripts/voice/voice_model
+config.ini
+scripts/database/twitch.db

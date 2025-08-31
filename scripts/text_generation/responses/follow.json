@@ -1,0 +1,87 @@
+{
+  "responses": [
+  {
+    "tag": null,
+    "responses": [
+      [
+         {
+            "text": "Thank you for following {user}!",
+            "expression": "happy_eyes_closed"
+          },
+          {
+            "text": "This brings me closer to my goal of world domination!",
+            "expression": "happy_eyes_closed"
+          }
+      ],
+      [
+         {
+            "text": "Thank you for the follow {user}!",
+            "expression": "happy_eyes_closed"
+          }
+      ]
+    ],
+    "function": null,
+    "args": null,
+    "context_set": null,
+    "context_set_end": true,
+    "context_filter": null
+  }
+  ],
+  "old_responses": [
+          [
+         {
+            "text": "Noah! Noah! {user} has followed you!",
+            "expression": null
+          },
+          {
+            "text": "Go and greet them :D",
+            "expression": null
+          },
+          {
+            "text": "They must be cute ^-^",
+            "expression": "happy_eyes_closed"
+          }
+      ],
+      [
+         {
+            "text": "Noah! {user} has followed you!",
+            "expression": null
+          },
+          {
+            "text": "Tell them their hair is nice!",
+            "expression": "happy_eyes_closed"
+          }
+      ],
+      [
+         {
+            "text": "{user} has followed you!",
+            "expression": "happy_eyes_closed"
+          },
+          {
+            "text": "They must've followed you because of me",
+            "expression": "smug"
+          }
+      ],
+      [
+         {
+            "text": "Thank you for following {user}!",
+            "expression": "happy_eyes_closed"
+          },
+          {
+            "text": "Noah is happy that you followed him",
+            "expression": "happy_eyes_closed"
+          }
+      ],
+      [
+         {
+            "text": "Noah you have a new follower",
+            "expression": "happy_eye_closed"
+          },
+          {
+            "text": "It's {user} and they seem cute!",
+            "expression": "smug"
+          }
+      ]
+  ]
+
+} 

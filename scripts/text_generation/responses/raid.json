@@ -1,0 +1,112 @@
+{
+    "responses": [{
+        "tag": "tier_1",
+        "responses": [
+            [{
+                    "text": "A raid! Thank you so much {user}!",
+                    "expression": "happy_eyes_closed"
+                },
+                {
+                    "text": "Also, welcome to Noah's stream everyone ^-^",
+                    "expression": "happy_eyes_closed_mouth_open"
+                },
+                {
+                    "text": "Let's all have a good time :D",
+                    "expression": "happy_mouth_open"
+                },
+                {
+                    "text": "Have fun!",
+                    "expression": "happy_eyes_closed"
+                }
+            ],
+            [
+                {
+                    "text": "It's a raid! {user} thank you for the raid!",
+                    "expression": "happy_eyes_closed"
+                },
+                {
+                    "text": "Also, welcome to the stream everyone!",
+                    "expression": "happy_eyes_closed"
+                },
+                {
+                    "text": "I hope ya'll have fun",
+                    "expression": "happy_eyes_closed"
+                }
+            ]
+        ],
+        "function": null,
+        "args": null,
+        "context_set": null,
+        "context_filter": null
+    }],
+    "old_responses": [
+        [{
+                    "text": "A raid! Thank you so much {user}!",
+                    "expression": "happy_eyes_closed"
+                },
+                {
+                    "text": "Also, welcome to Noah's stream everyone ^-^",
+                    "expression": "happy_eyes_closed_mouth_open"
+                },
+                {
+                    "text": "Let's all have a good time :D",
+                    "expression": "happy_mouth_open"
+                },
+                {
+                    "text": "Oh right, a shoutout",
+                    "expression": null
+                },
+                {
+                    "text": "!so {user}",
+                    "expression": "happy_eyes_closed"
+                },
+                {
+                    "text": "Have fun!",
+                    "expression": "happy_eyes_closed"
+                }
+            ],
+            [{
+                    "text": "Noah! Noah! it's a raid!",
+                    "expression": null
+                },
+                {
+                    "text": "{user} thank you for raiding us!",
+                    "expression": "happy_eyes_closed"
+                },
+                {
+                    "text": "Welcome to Noah's stream everyone ^-^",
+                    "expression": "happy_eyes_closed_mouth_open"
+                },
+                {
+                    "text": "!so {user} ",
+                    "expression": "happy_eyes_closed"
+                },
+                {
+                    "text": "Also, here's a shoutout :D",
+                    "expression": "happy_eyes_closed_mouth_open"
+                }
+            ],
+            [{
+                    "text": "It's a raid!",
+                    "expression": null
+                },
+                {
+                    "text": "{user} thank you for the raid!!",
+                    "expression": "happy_eyes_closed"
+                },
+                {
+                    "text": "Also, welcome to the stream everyone!",
+                    "expression": "happy_eyes_closed_mouth_open"
+                },
+                {
+                    "text": "!so {user} ",
+                    "expression": "happy_eyes_closed"
+                },
+                {
+                    "text": "Also, here's a shoutout for you {user} :D",
+                    "expression": "happy_eyes_closed_mouth_open"
+                }
+            ]
+    ]
+
+}

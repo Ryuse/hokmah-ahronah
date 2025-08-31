@@ -1,0 +1,45 @@
+{
+  "responses": [
+  {
+    "tag": null,
+    "responses": [
+      [
+         {
+            "text": "Thank you for the cheer {user}!",
+            "expression": "happy_eyes_closed"
+          },
+          {
+            "text": "This will help maintain the connection to your universe",
+            "expression": null
+          }
+      ], 
+      [
+         {
+            "text": "Thank you {user} for {bits} bits!",
+            "expression": "happy_eyes_closed"
+          },
+          {
+            "text": "I wonder if they are edible",
+            "expression": null
+          }
+      ], 
+      [
+         {
+            "text": "Thank you for the cheer {user}!",
+            "expression": "happy_eyes_closed"
+          },
+          {
+            "text": "Cheers makes me happy",
+            "expression": "happy_eyes_closed"
+          }
+      ]
+    ],
+    "function": null,
+    "args": null,
+    "context_set": null,
+    "context_set_end": true,
+    "context_filter": null
+  }
+  ] 
+
+} 

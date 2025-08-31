@@ -1,0 +1,69 @@
+{
+  "responses": [
+  {
+    "tag": null,
+    "responses": [
+      [
+         {
+            "text": "Noah! Noah! {user} has subscribed",
+            "expression": null
+          },
+          {
+            "text": "Their subscription will really help maintain the connection",
+            "expression": null
+          }, 
+          {
+            "text": "The connection with their universe",
+            "expression": "happy_eyes_closed"
+          }
+      ], 
+      [
+         {
+            "text": "Noah! {user} subscribed!",
+            "expression": null
+          },
+          {
+            "text": "Go thank them like what a human would do ^-^",
+            "expression": "happy_eyes_closed"
+          }
+      ], 
+      [
+         {
+            "text": "Thank you for subbing {user}!",
+            "expression": "happy_eyes_closed"
+          },
+          {
+            "text": "We're really grateful :D",
+            "expression": "happy_eyes_closed_mouth_open"
+          }
+      ], 
+      [
+         {
+            "text": "Thank you for the sub{user}!",
+            "expression": "happy_eyes_closed"
+          },
+          {
+            "text": "Noah is happy that you subbed",
+            "expression": "happy_eyes_closed"
+          }
+      ], 
+      [
+         {
+            "text": "Noah you have a new subscriber!",
+            "expression": "happy_eyes_closed"
+          },
+          {
+            "text": "It's {user} and they seem cute!",
+            "expression": "happy_eyes_closed_mouth_open"
+          }
+      ]
+    ],
+    "function": null,
+    "args": null,
+    "context_set": null,
+    "context_set_end": true,
+    "context_filter": null
+  }
+  ] 
+
+} 

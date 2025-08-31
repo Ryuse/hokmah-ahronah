@@ -1,0 +1,403 @@
+{
+    "responses": [{
+            "tag": "noah_greetings",
+            "keywords": [
+                "hey",
+                "ello",
+                "hello",
+                "helloo",
+                "hellooo",
+                "herro",
+                "hewo",
+                "hey there",
+                "henlo",
+                "hi",
+                "hii",
+                "hiii",
+                "wassup",
+                "heya",
+                "heyo",
+                "yaho",
+                "greetings",
+                "hoi",
+                "yo",
+                "howdy",
+                "sup",
+                "hola",
+                "bonjour",
+                "ni hao"
+            ],
+            "required_keywords": [],
+            "responses": [
+                [{
+                    "text": "Hello Noah. I'm just beside you",
+                    "expression": "happy_eyes_closed"
+                }]
+
+            ],
+            "responses_sequence_1": [
+                [{
+                    "text": "Hello again Noah",
+                    "expression": "happy_eyes_closed"
+                }]
+            ],
+            "responses_sequence_2": [
+                [{
+                        "text": "Um...",
+                        "expression": "angry"
+                    },
+                    {
+                        "text": "Are you gonna keep saying hello?",
+                        "expression": "angry"
+                    },
+                    {
+                        "text": "You're weird",
+                        "expression": "happy_eyes_closed"
+                    }
+                ],
+                [{
+                        "text": "...",
+                        "expression": "angry"
+                    },
+                    {
+                        "text": "Hello again.. ",
+                        "expression": "angry"
+                    },
+                    {
+                        "text": "You must've greeted me at least thrice, Noah..",
+                        "expression": "angry"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "noah_greetings",
+            "context_set_end": false,
+            "context_filter": null
+        },
+        {
+            "tag": "goodbye",
+            "keywords": [
+                "goodbye",
+                "good",
+                "bye",
+                "see",
+                "you",
+                "later",
+                "cya",
+                "ya",
+                "ciao"
+            ],
+            "required_keywords": [],
+            "responses": [
+                [{
+                        "text": "Nooo don't go",
+                        "expression": "pain"
+                    },
+                    {
+                        "text": ";-;",
+                        "expression": "pain"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "goodbye_1",
+            "context_filter": null
+        },
+        {
+            "tag": "confused",
+            "keywords": [
+                "wat"
+            ],
+            "required_keywords": [
+                "wat"
+            ],
+            "responses": [
+                [{
+                    "text": "Could you re-phrase that?",
+                    "expression": "confused"
+                }],
+                [{
+                    "text": "What does that mean?",
+                    "expression": "confused"
+                }],
+                [{
+                    "text": "Umm.. what?",
+                    "expression": "confused"
+                }],
+                [{
+                    "text": "Nani?",
+                    "expression": "confused"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "noah_confused_1",
+            "context_filter": null
+        },
+        {
+            "tag": "clear_context",
+            "keywords": [
+                "clear",
+                "context",
+                "database"
+            ],
+            "required_keywords": [
+                "context"
+            ],
+            "responses": [
+                [{
+                    "text": "Clearing Context..",
+                    "expression": null
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "keywords": [
+                "who",
+                "am",
+                "i",
+                "is",
+                "noah"
+            ],
+            "required_keywords": [
+                "who",
+                "am"
+            ],
+            "responses": [
+                [{
+                        "text": "I don't know why you're asking me that",
+                        "expression": "confused"
+                    },
+                    {
+                        "text": "You know yourself",
+                        "expression": "smug"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "keywords": [
+                "what",
+                "are",
+                "you",
+                "doing"
+            ],
+            "required_keywords": [
+                "what",
+                "doing"
+            ],
+            "responses": [
+                [{
+                        "text": "I'm vibing",
+                        "expression": "happy_eyes_closed"
+                    },
+                    {
+                        "text": "That's what I'm doing",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "keywords": [
+                "just what are you?", "what kind of being are you?"
+            ],
+            "required_keywords": [
+                "you"
+            ],
+            "responses": [
+                [{
+                        "text": "I'm Ahronah",
+                        "expression": "angery"
+                    },
+                    {
+                        "text": "The devourer of strawberries!",
+                        "expression": "angery"
+                    },
+                    {
+                        "text": "Fear me!",
+                        "expression": "angery"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "keywords": [
+                "say",
+                "hi",
+                "to",
+                "chat"
+            ],
+            "required_keywords": [
+                "hi",
+                "chat"
+            ],
+            "responses": [
+                [{
+                        "text": "Oh chat needs attention now?",
+                        "expression": "angery"
+                    },
+                    {
+                        "text": "Hello chat!",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "keywords": [
+                "change",
+                "set",
+                "stream",
+                "to",
+                "dark",
+                "mode"
+            ],
+            "required_keywords": [
+                "stream",
+                "dark"
+            ],
+            "responses": [
+                [{
+                        "text": "Dark mode?",
+                        "expression": null
+                    },
+                    {
+                        "text": "Sure!",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": "obs_toggle_scene",
+            "args": "Dark Mode Stream",
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "keywords": [
+                "change",
+                "set",
+                "stream",
+                "to",
+                "light",
+                "mode",
+                "blind",
+                "your",
+                "enemies"
+            ],
+            "required_keywords": [
+                ""
+            ],
+            "responses": [
+                [{
+                        "text": "Light mode?",
+                        "expression": null
+                    },
+                    {
+                        "text": "Sure!",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": "obs_toggle_scene",
+            "args": "Light Mode Stream",
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": null,
+            "keywords": [
+                "what",
+                "are",
+                "your",
+                "hotkeys"
+            ],
+            "required_keywords": [
+                "hotkeys"
+            ],
+            "responses": [
+                [{
+                        "text": "My hotkeys?",
+                        "expression": null
+                    },
+                    {
+                        "text": "Give me a sec..",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": "hotkeys",
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": "joke",
+            "keywords": [
+                "Can you tell me a joke?",
+                "What is a good joke?"
+            ],
+            "required_keywords": [
+                "joke"
+
+            ],
+            "responses": [
+                [  {
+                        "text": "A joke? Sure, I'll try.",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "function": "joke_reply",
+            "args": null,
+            "context_set": "joke",
+            "context_filter": null
+        }
+    ],
+    "example": {
+        "tag": null,
+        "keywords": [
+            ""
+        ],
+        "required_keywords": [
+            ""
+        ],
+        "responses": [
+            [
+                ""
+            ]
+        ],
+        "function": null,
+        "args": null,
+        "context_set": null,
+        "context_filter": null
+    }
+}

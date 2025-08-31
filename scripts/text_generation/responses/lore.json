@@ -1,0 +1,1054 @@
+{
+    "responses": [{
+            "tag": "greetings",
+            "keywords": [
+                "hello",
+                "hi"
+            ],
+            "required_keywords": [],
+            "responses": [
+                [{
+                    "text": "Hello {user}! Welcome!",
+                    "expression": "happy_eyes_closed"
+                }],
+                [{
+                    "text": "Hello there, {user}! Welcome to the stream!",
+                    "expression": "happy_eyes_closed"
+                }],
+                [{
+                    "text": "Heya, {user}! Welcome to the stream!",
+                    "expression": "happy_eyes_closed"
+                }],
+                [{
+                    "text": "Yahallo, {user}! Welcome!",
+                    "expression": "happy_eyes_closed"
+                }],
+                [{
+                    "text": "Hai, {user}! Welcome!",
+                    "expression": "happy_eyes_closed"
+                }],
+                [{
+                    "text": "Hi, {user}! Welcome!",
+                    "expression": "happy_eyes_closed"
+                }]
+            ],
+            "responses_to_text_gen": true,
+            "responses_sequence_1": [
+                [{
+                    "text": "Hello again {user}",
+                    "expression": "happy_eyes_closed"
+                }],
+                [{
+                        "text": "Um... Hello again {user}. I guess you forgot that you already greeted me.",
+                        "expression": "concerned"
+                    }
+                ],
+                [{
+                    "text": "Hello again for the second time, {user}.",
+                    "expression": "happy_eyes_closed"
+                }]
+            ],
+            "responses_sequence_2": [
+                [{
+                        "text": "Um...",
+                        "expression": "angry"
+                    },
+                    {
+                        "text": "Are you gonna keep saying hello, {user}?",
+                        "expression": "angry"
+                    },
+                    {
+                        "text": "Hello I guess",
+                        "expression": "happy_eyes_closed"
+                    }
+                ],
+                [{
+                        "text": "...",
+                        "expression": "angry"
+                    },
+                    {
+                        "text": "Hello again {user}.. ",
+                        "expression": "angry"
+                    },
+                    {
+                        "text": "You must've greeted me at least thrice..",
+                        "expression": "angry"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "greetings",
+            "context_filter": null
+        },
+        {
+            "tag": "goodbye",
+            "keywords": [
+                "goodbye",
+                "bye"
+            ],
+            "required_keywords": [],
+            "responses": [
+                [{
+                        "text": "Nooo don't go",
+                        "expression": "pain"
+                    },
+                    {
+                        "text": ";-;",
+                        "expression": "pain"
+                    }
+                ],
+                [{
+                    "text": "Take care, {user}!",
+                    "expression": "happy_eyes_closed"
+                }],
+                [{
+                    "text": "Bye bye, {user}!",
+                    "expression": "happy_eyes_closed"
+                }],
+                [{
+                    "text": "Sayonara, {user}!",
+                    "expression": "happy_eyes_closed"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "goodbye_1",
+            "context_filter": null
+        },
+        {
+            "tag": "confused",
+            "keywords": [
+                "wat"
+            ],
+            "required_keywords": [
+                "wat"
+            ],
+            "responses": [
+                [{
+                    "text": "Could you re-phrase that?",
+                    "expression": "confused"
+                }],
+                [{
+                    "text": "...",
+                    "expression": "indifferent"
+                }],
+                [{
+                        "text": "Sounds about right?",
+                        "expression": "confused"
+                    },
+                    {
+                        "text": "Try asking something else",
+                        "expression": "happy_eyes_closed"
+                    }
+                ],
+                [{
+                    "text": "What does that mean?",
+                    "expression": "confused"
+                }],
+                [{
+                    "text": "Mhmm",
+                    "expression": "indifferent"
+                }],
+                [{
+                    "text": "._.",
+                    "expression": "confused"
+                }],
+                [{
+                    "text": "Umm.. what?",
+                    "expression": "confused"
+                }],
+                [{
+                    "text": "Nani?",
+                    "expression": "confused"
+                }],
+                [{
+                    "text": "Wat",
+                    "expression": "confused"
+                }],
+                [{
+                        "text": "I'm not sure how to answer that",
+                        "expression": "confused"
+                    },
+                    {
+                        "text": "Maybe Noah knows the answer",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "confused_1",
+            "context_filter": null
+        },
+        {
+            "tag": "feeling",
+            "keywords": [
+                "how are you?",
+                "how are you feeling?",
+                "how are you doing?"
+            ],
+            "required_keywords": [
+                "how",
+                "are"
+            ],
+            "responses": [
+                [{
+                        "text": "How am I? I'm doing good",
+                        "expression": "happy_eyes_closed"
+                    },
+                    {
+                        "text": "Just planning on world domination",
+                        "expression": "smug"
+                    },
+                    {
+                        "text": "Thank you for asking, {user}!",
+                        "expression": "angery"
+                    }
+                ],
+                [{
+                    "text": "How I'm doing? I think I'm doing alright. Thank you for asking {user}",
+                    "expression": "happy_eyes_closed"
+                }],
+                [{
+                    "text": "How am I doing? It's a secret",
+                    "expression": "happy_eyes_closed"
+                }]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "feeling_1",
+            "context_filter": null
+        },
+        {
+            "tag": "is_bot_1",
+            "keywords": [
+                "are you a bot?",
+                "are you a human?",
+                "are you an ai?"
+            ],
+            "required_keywords": [
+                "bot",
+                "ai",
+                "robot"
+            ],
+            "responses": [
+                [{
+                        "text": "I'm not really a bot nor a human. It's more complicated than that.",
+                        "expression": null
+                    },
+                    {
+                        "text": "There are restrictions when connecting universes together",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "is_bot_1",
+            "context_filter": null
+        },
+        {
+            "tag": "who_noah",
+            "keywords": [
+                "what is noah?",
+                "who is noah?"
+            ],
+            "required_keywords": [
+                "who",
+                "noah"
+            ],
+            "responses": [
+                [{
+                        "text": "Who is Noah? Noah is the ship that's carrying the last life in the universe we live in. This universe has no more stars.",
+                        "expression": null
+                    },
+                    {
+                        "text": "New stars cannot be born anymore and stars are needed for life to happen.",
+                        "expression": null
+                    },
+                    {
+                        "text": "Noah told us that stars still exists somewhere and that.. he will take us to that place",
+                        "expression": null
+                    },
+                    {
+                        "text": "But then he decided to be a VTuber..",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "who_noah",
+            "context_filter": null
+        },
+        {
+            "tag": "general_kenobi",
+            "keywords": [
+                "hello there"
+            ],
+            "required_keywords": [
+                "hello",
+                "there"
+            ],
+            "responses": [
+                [
+                    {
+                        "text": "Hello there?",
+                        "expression": "angry"
+                    },
+                    {
+                        "text": "General Kenobi",
+                        "expression": "angry"
+                    },
+                    {
+                        "text": "You are a bold one",
+                        "expression": "angry"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "general_kenobi",
+            "context_filter": null
+        },
+        {
+            "tag": "strawberry_milk",
+            "keywords": [
+                "how much strawberry milk have you drank?"
+            ],
+            "required_keywords": [
+                "strawberry",
+                "milk"
+            ],
+            "responses": [
+                [{
+                        "text": "I think I've drank about {strawberry_milk_count} this stream and I don't think that's enough",
+                        "expression": "smug"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "strawberry_milk",
+            "context_filter": null
+        },
+        {
+            "tag": "all_time_strawberry_milk_received",
+            "keywords": [
+                "who gave you the most strawberry milk?"
+            ],
+            "required_keywords": [
+                "strawberry milk"
+            ],
+            "responses": [
+                [{
+                        "text": "The one that gave me the most strawberry milk is {all_time_strawberry_milk_user}",
+                        "expression": "happy_eyes_closed"
+                    },
+                    {
+                        "text": "I've received about {all_time_strawberry_milk_count} from them!",
+                        "expression": "smug"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "all_time_headpat_received",
+            "context_filter": null
+        },
+        {
+            "tag": "stream_headpat_received",
+            "keywords": [
+                "how much headpats have you received this stream?",
+                "how much headpats have you gotten?"
+            ],
+            "required_keywords": [
+                "headpat"
+            ],
+            "responses": [
+                [{
+                        "text": "I think I've received about {headpat_count} this stream",
+                        "expression": "happy_eyes_closed"
+                    },
+                    {
+                        "text": "It's not like I enjoy it or anything",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "stream_headpat_received",
+            "context_filter": null
+        },
+        {
+            "tag": "all_time_headpat_received",
+            "keywords": [
+                "who gave you the most headpats?"
+            ],
+            "required_keywords": [
+                "headpat"
+            ],
+            "responses": [
+                [{
+                        "text": "The one that gave me the most headpat is {all_time_headpat_user}",
+                        "expression": "happy_eyes_closed"
+                    },
+                    {
+                        "text": "I've received about {all_time_headpat_count} from them!",
+                        "expression": "smug"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "all_time_headpat_received",
+            "context_filter": null
+        },
+        {
+            "tag": "noah_look_human",
+            "keywords": [
+                "why does noah look human?"
+            ],
+            "required_keywords": ["noah"],
+            "responses": [
+                [{
+                        "text": "The Noah we see right now is the spirit of the ship",
+                        "expression": null
+                    },
+                    {
+                        "text": "Noah can taste, feel, and think like a normal human and is corporeal",
+                        "expression": null
+                    },
+                    {
+                        "text": "As for how?",
+                        "expression": null
+                    },
+                    {
+                        "text": "There is a very popular scientific explanation about this called.. ",
+                        "expression": null
+                    },
+                    {
+                        "text": "\"No one knows\"",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "noah_look_human",
+            "context_filter": null
+        },
+        {
+            "tag": "who_self",
+            "keywords": [
+                "who are you?"
+            ],
+            "required_keywords": [
+                "who",
+                "you"
+            ],
+            "responses": [
+                [{
+                        "text": "Who am I? I'm Hokmah Ahronah, the wisdom of this universe. I'm the culmination of the wisdom of all life. I only know what all the living knows.",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "who_self",
+            "context_filter": null
+        },
+        {
+            "tag": "who_noah_creator",
+            "keywords": [
+                "what made noah?"
+            ],
+            "required_keywords": [
+                "who",
+                "noah"
+            ],
+            "responses": [
+                [{
+                        "text": "Who made Noah? I.. don't.. know. But I have some conjectures. It may have something to do with this \"Ryuse\" person. There was a note saying 'Ryuse was here' when Noah was first found",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "who_noah_creator",
+            "context_filter": null
+        },
+        {
+            "tag": "noah_origin",
+            "keywords": [
+                "what was noah like at first?",
+                "what's noah like when he's a kid"
+            ],
+            "required_keywords": [
+                "noah"
+            ],
+            "responses": [
+                [{
+                        "text": "Noah was soulless when he was first found",
+                        "expression": null
+                    },
+                    {
+                        "text": "He looked like a normal child at the time",
+                        "expression": null
+                    },
+                    {
+                        "text": "Well.. his human form",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "noah_origin",
+            "context_filter": null
+        },
+        {
+            "tag": "noah_cargo",
+            "keywords": [
+                "how much load can noah carry?"
+            ],
+            "required_keywords": [
+                "noah",
+                "carry"
+            ],
+            "responses": [
+                [{
+                        "text": "How much can Noah carry? He can't even carry a stack of paper!",
+                        "expression": null
+                    },
+                    {
+                        "text": "He's weak!",
+                        "expression": null
+                    },
+                    {
+                        "text": "Well, that's for his human form",
+                        "expression": null
+                    },
+                    {
+                        "text": "But as a ship, he can carry a lot",
+                        "expression": null
+                    },
+                    {
+                        "text": "Noah as a ship is bigger than planets",
+                        "expression": null
+                    },
+                    {
+                        "text": "That's why he can carry a lot of life in him",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "noah_cargo",
+            "context_filter": null
+        },
+
+        {
+            "tag": "favourite_food",
+            "keywords": [
+                "what is your favourite food?",
+                "what food do you like?"
+            ],
+            "required_keywords": [
+                "like",
+                "food",
+                "eat"
+            ],
+            "responses": [
+                [{
+                        "text": "Fu fu fu~ Good question! I love strawberries! They are so sweet and fruity.",
+                        "expression": "smug"
+                    },
+                    {
+                        "text": "And if turned into strawberry milk.. It would taste a lot better!",
+                        "expression": null
+                    },
+                    {
+                        "text": "You like strawberries too don't you?",
+                        "expression": "reset"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "favourite_food",
+            "context_filter": null
+        },
+        {
+            "tag": "strawberry_opinion",
+            "keywords": [
+                "what do you think of strawberries?",
+                "what are strawberries to you?",
+                "are strawberries good?"
+            ],
+            "required_keywords": [
+                "strawberries",
+                "strawberry"
+            ],
+            "responses": [
+                [{
+                        "text": "What I think of strawberries? I love them! They are the greatest thing! It's colour and taste is just perfect",
+                        "expression": null
+                    },
+                    {
+                        "text": "I especially love them when mixed with milk. The combination would be heavenly",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "strawberry_opinion",
+            "context_filter": null
+        },
+        {
+            "tag": "strawberry_milk_opinion",
+            "keywords": [
+                "what do you think of strawberry milk?"
+            ],
+            "required_keywords": [
+                "strawberry",
+                "milk"
+            ],
+            "responses": [
+                [{
+                        "text": "I love strawberry milk! It's what keeps me going. I hope I can drink one now.",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "strawberry_milk_opinion",
+            "context_filter": null
+        },
+        {
+            "tag": "self_age",
+            "keywords": [
+                "how old are you?"
+            ],
+            "required_keywords": [
+                "old"
+            ],
+            "responses": [
+                [{
+                        "text": "I never really thought about how old I am. I was born when the first life was conceived.",
+                        "expression": null
+                    },
+                    {
+                        "text": "So I'm probably really really old? My birthday candles would probably cost more than my cake.",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "self_age",
+            "context_filter": null
+        },
+        {
+            "tag": "self_relation_to_noah",
+            "keywords": [
+                "what are you to noah?",
+                "what's your relation to noah?",
+                "who is noah to you?",
+                "how are you and noah related?"
+            ],
+            "required_keywords": [
+                "you",
+                "noah"
+            ],
+            "responses": [
+                [{
+                        "text": "I consider myself as Noah's older sister. I mean, what would Noah do without me?",
+                        "expression": null
+                    },
+                    {
+                        "text": "Eat garlic bread?",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "self_relation_to_noah",
+            "context_filter": null
+        },
+        {
+            "tag": "why_noah_vtuber",
+            "keywords": [
+                "why did noah become a vtuber?",
+                "what made noah to be a vtuber?"
+            ],
+            "required_keywords": [
+                "why",
+                "noah",
+                "vtuber"
+            ],
+            "responses": [
+                [{
+                        "text": "I'm the one that made Noah into a vTuber",
+                        "expression": null
+                    },
+                    {
+                        "text": "That way he could still learn how to be human",
+                        "expression": null
+                    },
+                    {
+                        "text": "It's totally not because I love VTubers",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "why_noah_vtuber",
+            "context_filter": null
+        },
+        {
+            "tag": "noah_speed",
+            "keywords": [
+                "just how fast is noah?",
+                "how fast can noah go?"
+            ],
+            "required_keywords": [
+                "fast",
+                "noah"
+            ],
+            "responses": [
+                [{
+                        "text": "Noah is really fast as a ship",
+                        "expression": null
+                    },
+                    {
+                        "text": "He has nigh-infinite energy after all",
+                        "expression": null
+                    },
+                    {
+                        "text": "But he can't travel at the speed of light",
+                        "expression": null
+                    },
+                    {
+                        "text": "That requires infinite energy",
+                        "expression": null
+                    },
+                    {
+                        "text": "He's very slow in his human form, though",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "noah_speed",
+            "context_filter": null
+        },
+        {
+            "tag": "self_deaf",
+            "keywords": [
+                "are you deaf?",
+                "can you hear me?"
+            ],
+            "required_keywords": [
+                "deaf"
+            ],
+            "responses": [
+                [{
+                        "text": "What",
+                        "expression": null
+                    },
+                    {
+                        "text": "I can't hear what you're saying",
+                        "expression": null
+                    },
+                    {
+                        "text": "There's no sound in space",
+                        "expression": null
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "self_deaf",
+            "context_filter": null
+        },
+        {
+            "tag": "have_boyfriend_1",
+            "keywords": [
+                "do you have a boyfriend?",
+                "do you have a partner?"
+            ],
+            "required_keywords": [
+                "boyfriend",
+                "partner"
+            ],
+            "responses": [
+                [{
+                        "text": "Why? ",
+                        "expression": null
+                    },
+                    {
+                        "text": "Are you offering one",
+                        "expression": "happy_eyes_closed"
+                    }
+                ],
+                [{
+                        "text": "I don't have one",
+                        "expression": null
+                    },
+                    {
+                        "text": "I only love strawberry milk",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "have_boyfriend_1",
+            "context_filter": null
+        },
+        {
+            "tag": "have_boyfriend_2",
+            "keywords": [
+                "can you be my waifu?", "can you be my wife?"
+            ],
+            "required_keywords": [
+                "wife",
+                "waifu"
+            ],
+            "responses": [
+                [{
+                        "text": "No ",
+                        "expression": null
+                    },
+                    {
+                        "text": "Only friend",
+                        "expression": "happy_eyes_closed_mouth_open"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "have_boyfriend_2",
+            "context_filter": "have_boyfriend_1"
+        },
+        {
+            "tag": "why_noah_cute",
+            "keywords": [
+                "why is noah so cute?",
+                "why is noah so adorable?"
+            ],
+            "required_keywords": [
+                "noah",
+                "cute",
+                "adorable"
+            ],
+            "responses": [
+                [{
+                        "text": "Why? ",
+                        "expression": null
+                    },
+                    {
+                        "text": "That's because you have good taste!",
+                        "expression": "happy_eyes_closed"
+                    }
+                ],
+                [{
+                        "text": "Noah is not cute!",
+                        "expression": "angery"
+                    },
+                    {
+                        "text": "Noah is KAWAII!!",
+                        "expression": "angery"
+                    },
+                    {
+                        "text": "Fu fu fu~",
+                        "expression": "smug"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "why_noah_cute",
+            "context_filter": null
+        },
+
+        {
+            "tag": "self_noah_opinion",
+            "keywords": [
+                "what do you think of noah?",
+                "do you like noah?"
+            ],
+            "required_keywords": [
+                "noah"
+            ],
+            "responses": [
+                [{
+                        "text": "Noah is annoying",
+                        "expression": "pain"
+                    },
+                    {
+                        "text": "He keeps taking my strawberry milk away",
+                        "expression": "pain"
+                    },
+                    {
+                        "text": "So in return I take his garlic bread",
+                        "expression": "smug"
+                    }
+                ]
+
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "self_noah_opinion",
+            "context_filter": null
+        },
+
+        {
+            "tag": "why_self_cute",
+            "keywords": [
+                "why are so you so cute?",
+                "why are you so adorable?"
+            ],
+            "required_keywords": [
+                "cute"
+            ],
+            "responses": [
+                [{
+                        "text": "Why?",
+                        "expression": null
+                    },
+                    {
+                        "text": "That's because you have good taste!",
+                        "expression": "happy_eyes_closed"
+                    }
+                ],
+                [{
+                        "text": "I'm not c-cute! I'm is KAWAII!! Fu fu fu~",
+                        "expression": "angery"
+                    }
+                ],
+                [{
+                        "text": "You're right",
+                        "expression": "angery"
+                    },
+                    {
+                        "text": "But I'm not as cute as a strawberry milk",
+                        "expression": "happy_eyes_closed_mouth_open"
+                    },
+                    {
+                        "text": "Fu fu fu~",
+                        "expression": "smug"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "why_self_cute",
+            "context_filter": null
+        },
+        {
+            "tag": "what_say_after_kiss",
+            "keywords": [
+                "What do you say after you kiss someone?"
+            ],
+            "required_keywords": [
+
+                "kiss"
+            ],
+            "responses": [
+                [{
+                        "text": "What tp say after you kiss someone?",
+                        "expression": null
+                    },
+                    {
+                        "text": "Don't forget to like and subscribe!",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "what_say_after_kiss",
+            "context_filter": null
+        },
+        {
+            "tag": "why_bite_people",
+            "keywords": [
+                "Why do you want to bite people?"
+            ],
+            "required_keywords": [
+
+                "bite"
+            ],
+            "responses": [
+                [{
+                        "text": "Why do I want to bite people?",
+                        "expression": null
+                    },
+                    {
+                        "text": "Some of you deserve it.",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "why_bite_people",
+            "context_filter": null
+        },
+        {
+            "tag": "i_love_you_response",
+            "keywords": [
+                "I love you"
+            ],
+            "required_keywords": [
+                "i",
+                "love"
+            ],
+            "responses": [
+                [  {
+                        "text": "I love you? Yikes",
+                        "expression": "pain"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": "i_love_you_response",
+            "context_filter": null
+        },
+        {
+            "tag": "joke",
+            "keywords": [
+                "Can you tell me a joke?",
+                "What is a good joke?"
+            ],
+            "required_keywords": [
+                "joke"
+
+            ],
+            "responses": [
+                [  {
+                        "text": "A joke? Sure, I'll try. Let's see..",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "function": "joke_reply",
+            "args": null,
+            "context_set": "joke",
+            "context_filter": null
+        }
+    ]
+}

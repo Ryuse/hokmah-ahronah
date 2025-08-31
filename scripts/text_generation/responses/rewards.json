@@ -1,0 +1,148 @@
+{
+    "responses": [{
+            "tag": "headpat",
+            "reward_id": "3d5f70df-61c1-4c47-bad9-4b5885ff3f76",
+            "responses": [
+                [{
+                    "text": "Thank you for the headpats, {user}. It's not like I like it or anything.",
+                    "expression": "happy_eyes_closed"
+                }],
+                [{
+                        "text": "Please don't treat me like a kid, {user}! I'm older than you!",
+                        "expression": "angry"
+                    },
+                    {
+                        "text": "Wait. No. Don't stop! Keep going!",
+                        "expression": "pain"
+                    }
+                ],
+                [{
+                        "text": "Thank you for the headpat, {user}. It's kind of nice but.. strawberry milks are still better.",
+                        "expression": "happy_eyes_Closed"
+                    }
+                ]
+            ],
+            "before_text_function": "headpat_ahronah",
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": "strawberry_milk",
+            "reward_id": "bce8f652-aeaa-426a-bc90-4160c9041b56",
+            "responses": [
+                [{
+                        "text": "YES, Strawberry milk! Thank you {user}!",
+                        "expression": "happy_eyes_closed"
+                    }
+                ],
+                [{
+                        "text": "Thank you for the milk, {user}! Did it come from a pink cow?",
+                        "expression": "happy_eyes_closed"
+                    }
+                ],
+                [{
+                        "text": "That's so nice of you, {user}! You're better than Noah.",
+                        "expression": "happy_eyes_closed"
+                    }
+                ],
+                [{
+                        "text": "Thank you, {user}! This will help me grow. I'll be drinking this all day.",
+                        "expression": "happy_eyes_closed"
+                    }
+                ]
+            ],
+            "before_text_function": "strawberry_milk",
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": "owo_sound",
+            "reward_id": "9dca1f03-40b2-4099-aa67-aed5037556f9",
+
+            "responses": [
+                [{
+                        "text": "owo? That's kinda cringe. I can't believe you would do that, {user}.",
+                        "expression": "disgust"
+                    }
+                ],
+                [{
+                        "text": "That's kinda cringe, {user}. I didn't actually think you would actually use that \"owo\" redeem.",
+                        "expression": "disgust"
+                  }
+                ]
+            ],
+            "responses_to_text_gen": true,
+            "before_text_function": null,
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": "uwu_sound",
+            "reward_id": "f4f32ebe-37a4-4355-9a6b-545a9240e84c",
+            "responses": [
+                [{
+                        "text": "uwu? That's kinda cringe. I can't believe you would do that, {user}.",
+                        "expression": "disgust"
+                    }
+                ],
+                [{
+                        "text": "{user}.. I didn't actually think you would actually use that \"uwu\" redeem. That's kind of cool of you!",
+                        "expression": "disgust"
+                    }
+                ]
+            ],
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+            "tag": "rip_sound",
+            "reward_id": "26a31993-098b-4d47-8cbd-d58a198f9c3e",
+            "responses": [
+                [{
+                        "text": "That sounds so sad. I wonder if {user} was disappointed in Noah.",
+                        "expression": "sad"
+                    }
+                ],
+                [{
+                        "text": "That's a sad sound. Noah did you do anything wrong?",
+                        "expression": "sad"
+                    }
+                ]
+            ],
+            "responses_to_text_gen": true,
+            "function": null,
+            "args": null,
+            "context_set": null,
+            "context_filter": null
+        },
+        {
+              "tag": "oof_sound",
+              "reward_id": "c4372f55-d871-4dd4-855e-c39f571d7ccb",
+              "responses": [
+                  [{
+                          "text": "Ouch!",
+                          "expression": "pain"
+                      }
+                  ],
+                  [{
+                          "text": "Ow!",
+                          "expression": "pain"
+                      }
+                  ]
+              ],
+              "function": "damage",
+              "args": null,
+              "context_set": null,
+              "context_filter": null
+          }
+    ]
+
+}
