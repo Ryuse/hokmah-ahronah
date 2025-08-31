@@ -11,7 +11,7 @@ She bridges streaming tools, chat interactivity, and virtual character control i
 https://github.com/user-attachments/assets/498fc8aa-fb9b-482f-a4e4-5e3f0cb0766b
 
 Ahronah on a Stream: 
-[![maxresdefault](https://github.com/user-attachments/assets/2bdbcaf2-d3e2-4f80-86a5-8aa8ff336b97))](https://www.youtube.com/watch?v=TLw06-EDdq0)
+[![maxresdefault](https://github.com/user-attachments/assets/2bdbcaf2-d3e2-4f80-86a5-8aa8ff336b97)](https://www.youtube.com/watch?v=TLw06-EDdq0)
 
 
 ---
